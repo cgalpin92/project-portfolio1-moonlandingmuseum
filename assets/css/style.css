@@ -40,6 +40,15 @@ h1 {
 nav {
     padding-left: 3%;
     padding-top: 2%;
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 #main-menu {
