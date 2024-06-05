@@ -18,7 +18,15 @@ body {
 /* Header styles */
 header {
     background-color: teal;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
     font-family: 'Space Grotesk', sans-serif;
+    color: white;
 }
 
 /* Main Content styles */
