@@ -1,0 +1,20 @@
+/* Generic body styles */
+body {
+    background-color: black;
+}
+
+/* Header styles */
+header {
+    background-color: teal;
+}
+
+/* Main Content styles */
+main {
+    background-color: whitesmoke;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: orange;
+}
