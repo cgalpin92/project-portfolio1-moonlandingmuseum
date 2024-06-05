@@ -56,6 +56,14 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
+.active {
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: larger;
+}
+
 /* Main Content styles */
 main {
     background-color: whitesmoke;
