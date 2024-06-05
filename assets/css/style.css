@@ -19,6 +19,7 @@ body {
 /* Header styles */
 header {
     background-color: teal;
+    padding: 3% 3%;
 }
 
 header a {
