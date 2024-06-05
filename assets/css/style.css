@@ -93,16 +93,29 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: orange;
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-footer h4 {
-    align: left;
+footer a {
+    text-decoration: none;
+    color: black;
 }
-
+    
 #social-media-links {
     display: flex;
     justify-content: space-evenly;
     list-style: none; 
-    color: black; 
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
+
+h4 {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 5px;
+}
+
+/* styling for larger screens */
+
