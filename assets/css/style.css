@@ -20,6 +20,9 @@ body {
 header {
     background-color: teal;
     padding: 3% 3%;
+    position: fixed;
+    box-shadow: 0 2px 2px darkgray;
+    width: 100%;
 }
 
 header a {
