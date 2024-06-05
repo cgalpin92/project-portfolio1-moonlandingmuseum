@@ -20,8 +20,12 @@ body {
 header {
     background-color: teal;
     position: fixed;
+    padding: 0 3%;
     box-shadow: 0 2px 2px darkgray;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -49,6 +53,7 @@ nav {
 
 #nav-toggle {
     display: none;
+    padding-right: 4%;
 }
 
 #main-menu {
