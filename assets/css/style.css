@@ -95,3 +95,14 @@ main {
 footer {
     background-color: orange;
 }
+
+footer h4 {
+    align: left;
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none; 
+    color: black; 
+}
