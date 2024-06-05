@@ -1,6 +1,16 @@
+/* Asterisk for overriding browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Generic body styles */
 body {
     background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header styles */
@@ -11,6 +21,7 @@ header {
 /* Main Content styles */
 main {
     background-color: whitesmoke;
+    flex: 1 0 auto;
 }
 
 
