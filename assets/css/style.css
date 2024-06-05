@@ -19,7 +19,6 @@ body {
 /* Header styles */
 header {
     background-color: teal;
-    padding: 3% 3%;
     position: fixed;
     box-shadow: 0 2px 2px darkgray;
     width: 100%;
@@ -35,15 +34,23 @@ h1 {
     letter-spacing: 10px;
     text-transform: uppercase;
     font-size: 150%;
+    padding: 3% 3%;
 }
 
 nav {
+    padding-left: 3%;
+    padding-top: 2%;
 }
 
 #main-menu {
     font-family: 'Rajdhani', sans-serif;
     letter-spacing: 5px;
     list-style-type: none;
+    
+}
+
+#main-menu li {
+    margin-bottom: 1em;
 }
 nav a {
     text-decoration: none;
