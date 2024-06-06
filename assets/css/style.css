@@ -147,11 +147,19 @@ h4 {
     .nav-toggle-lable {
         display: none;
     }
+
+    /* Main Content */
+
+    main {
+        margin-top: 80px;
+    }
+
+
 }
+
+
     
 
-
-/* Main Content */
 
 
 /* Footer */
