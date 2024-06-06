@@ -98,6 +98,15 @@ main {
     margin-top: 68px;
 }
 
+h2 {
+    padding-top: 4%;
+    padding-left: 3%;
+    font-family: 'Josefin-Sans', sans-serif;
+    font-size: 300%;
+    letter-spacing: 3px;
+    color: darkred;
+}
+
 
 /* Footer styles */
 footer {
