@@ -66,8 +66,8 @@ nav {
     padding-top: 2%;
     display: none;
     top: 100%;
-    /*background-color: black;*/
-    /*width: 94%;*/
+    background-color: white;
+    width: 100%;
 }
 
 #nav-toggle:checked~nav {
@@ -131,8 +131,24 @@ h4 {
     font-size: larger;
 }
 /* styling for larger screens */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 2%;
+    }
 
-/* Header */
+    #main-menu {
+        display: flex;
+    }
+
+    .nav-toggle-lable {
+        display: none;
+    }
+}
+    
 
 
 /* Main Content */
