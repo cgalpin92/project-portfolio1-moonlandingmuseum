@@ -128,7 +128,7 @@ h4 {
 .active2 {
     font-weight: bolder;
     text-decoration: underline;
-    font-size: larger;
+    /*font-size: larger;*/
 }
 /* styling for larger screens */
 @media screen and (min-width: 768px) {
@@ -174,17 +174,31 @@ h4 {
 
     /* Main Content */
     main {
-        margin-top: 93px;
+        margin-top: 85px;
     }
 
 
     /* footer */
 
+    footer {
+        flex-direction: row;
+        height: 60px;
+        align-content: center;
+        align-items: center;
+    }
+
+    #social-media-links {
+        font-size: x-large;
+    }
+
+    #social-media-links li {
+        margin-right: 10em;
+    }
+
+    .active2 {
+        font-size: 120%;
+    }
+    
+   
 }
 
-
-    
-
-
-
-/* Footer */
