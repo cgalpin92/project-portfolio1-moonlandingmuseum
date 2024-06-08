@@ -129,9 +129,18 @@ h2 {
 
 h3 {
     font-family: 'Rajdhani', sans-serif;
+    font-size: 150%;
+    padding-left: 130px;
+    margin-top: 0.5rem;
+    text-decoration: underline overline;
 }
 
-
+p {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 2%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
 
 .welcome-images {
     width: 70%;
