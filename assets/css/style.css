@@ -100,6 +100,7 @@ main {
     margin-top: 68px;
 }
 
+/* Hero styling */
 #hero {
     background-image: url(/assets/images/rocket.jpg);
     width: 100%;
@@ -117,15 +118,23 @@ main {
     /*background-color: rgba(134, 243, 238, 0.6);*/
 }
 
+/* main content styling */
 h2 {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 300%;
     letter-spacing: 3px;
     color: darkblue;
     font-weight: 300;
-
 }
 
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.welcome-images {
+    width: 100%;
+    position: relative;
+}
 
 /* Footer styles */
 footer {
