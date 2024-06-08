@@ -131,9 +131,53 @@ h3 {
     font-family: 'Rajdhani', sans-serif;
 }
 
+
+
 .welcome-images {
-    width: 100%;
+    width: 70%;
+    height: 70%;
     position: relative;
+    padding-left: 5rem;
+    border-radius: 20%;
+}
+
+.blue-image {
+    position: relative;
+    border-radius: 20%;
+    border: 10px solid rgb(0, 0, 139);
+    padding: 3px;
+}
+
+#blue-image-alignment {
+    left: 7rem;
+    width: 60%;
+    height: 60%;
+}
+
+.red-image {
+    position: relative;
+    border-radius: 20%;
+    border: 10px solid rgb(139, 0, 0);
+    padding: 3px;
+}
+
+#red-image-alignment {
+    left: 1rem;
+    width: 60%;
+    height: 60%;
+}
+
+.orange-image {
+    position: relative;
+    border-radius: 20%;
+    border: 10px solid rgb(255, 95, 0);
+    padding: 3px;
+}
+
+#orange-image-alignment {
+    left: 7rem;
+    width: 60%;
+    height: 60%;
 }
 
 /* Footer styles */
