@@ -9,7 +9,7 @@
 
 /* Generic body styles */
 body {
-    background-color: black;
+    background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -95,7 +95,7 @@ nav a {
 
 /* Main Content styles */
 main {
-    background-color: whitesmoke;
+    background-color: white;
     flex: 1 0 auto;
     margin-top: 68px;
 }
