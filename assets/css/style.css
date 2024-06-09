@@ -16,6 +16,39 @@ body {
     font-family: 'Roboto', Rajdhani, sans-serif;
 }
 
+main {
+    background-color: white;
+    flex: 1 0 auto;
+    margin-top: 68px;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 300%;
+    letter-spacing: 3px;
+    color: darkblue;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 180%;
+    text-decoration: underline overline;
+    color: darkred;
+}
+
+h4 {
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 5px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 2%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
 /* Header styles */
 header {
     background-color: darkgrey;
@@ -91,14 +124,7 @@ nav a {
     color: black;
 }
 
-
-
 /* Main Content styles */
-main {
-    background-color: white;
-    flex: 1 0 auto;
-    margin-top: 68px;
-}
 
 /* Hero styling */
 #hero {
@@ -119,31 +145,10 @@ main {
 }
 
 /* main content styling */
-h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 300%;
-    letter-spacing: 3px;
-    color: darkblue;
-    font-weight: 300;
-}
-
-h3 {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 180%;
-    text-decoration: underline overline;
-    color: darkred;
-}
 
 .text-center {
     margin-top: 0.5rem;
     text-align: center;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-    padding-left: 2%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
 }
 
 #whats-here-list {
@@ -175,14 +180,14 @@ p {
     height: 60%;
 }
 
-.red-image {
+.black-image {
     position: relative;
     border-radius: 20%;
-    border: 10px solid rgb(139, 0, 0);
+    border: 10px solid rgb(0, 0, 0);
     padding: 3px;
 }
 
-#red-image-alignment {
+#black-image-alignment {
     left: 1rem;
     width: 60%;
     height: 60%;
@@ -220,11 +225,6 @@ footer a {
     list-style: none;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-h4 {
-    font-family: 'Rajdhani', sans-serif;
-    letter-spacing: 5px;
 }
 
 .active2 {
