@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Apollo 11 Moon Landing 1969. Apollo 11 Museum. Mission to the Moon. First Man on the Moon">
+    <meta name="description"
+        content="Apollo 11 Moon Landing 1969. Apollo 11 Museum. Mission to the Moon. First Man on the Moon">
     <meta name="keywords" content="Apollo 11, Moon Landing 1969, Space Museum, NASA, First Man on the Moon">
     <title>Moon Landing Museum</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -28,22 +31,103 @@
     <!-- Main Content -->
     <main>
         <h2>Volunteer with Us</h2>
+        <p>Please complete the form below to register your interest in Volunteering with us</p>
+        <!-- Volunteering Form -->
+        <form action="https://formdump@moon-landing-museum.org.uk" method="post">
+            <div class="table-alignment">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+                <br>
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number">
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="name@emailaddress.com">
+                <br>
+                <label for="age">Are you age 18 or older?</label>
+                <select name="age" id="age">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br>
+            </div>
+            <div class="table-alignment">
+                <p>Please select your availability</p>
+                <p>select as many as you wish</p>
+                <label for="availability">Mon</label>
+                <input type="checkbox" id="availability" name="availability" value="monday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="monday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="monday-pm">
+                <br>
+                <label for="availability">Tue</label>
+                <input type="checkbox" id="availability" name="availability" value="tuesday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="tuesday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="tuesday-pm">
+                <br>
+                <label for="availability">Wed</label>
+                <input type="checkbox" id="availability" name="availability" value="wednesday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="wednesday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="wednesday-pm">
+                <br>
+                <label for="availability">Thur</label>
+                <input type="checkbox" id="availability" name="availability" value="thursday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="thursday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="thursday-pm">
+                <br>
+                <label for="availability">Fri</label>
+                <input type="checkbox" id="availability" name="availability" value="friday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="friday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="friday-pm">
+                <br>
+                <label for="availability">Sat</label>
+                <input type="checkbox" id="availability" name="availability" value="saturday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="saturday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="saturday-pm">
+                <br>
+                <label for="availability">Sun</label>
+                <input type="checkbox" id="availability" name="availability" value="sunday">
+                <label for="availability">am</label>
+                <input type="checkbox" name="availability" id="availability" value="sunday-am">
+                <label for="availability">pm</label>
+                <input type="checkbox" name="availability" id="availability" value="sunday-pm">
+            </div>
+        </form>
+
     </main>
 
     <!-- Footer -->
     <footer>
         <div>
             <ul id="social-media-links">
-                <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook Page (opens in a new tab)"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram Page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter Page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook Page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram Page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter Page (opens in a new tab)"><i
+                            class="fa-brands fa-x-twitter"></i></a></li>
             </ul>
         </div>
         <h4><a href="visit-us.html">Visit Us</a></h4>
         <h4><a href="form.html" class="active2">Volunteer with Us</a></h4>
     </footer>
-    
+
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/244c1138b0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
