@@ -175,8 +175,8 @@ nav a {
 }
 
 #blue-image-alignment {
-    left: 7rem;
-    width: 60%;
+    /*left: 7rem;*/
+    width: 100%;
     height: 60%;
 }
 
@@ -201,8 +201,8 @@ nav a {
 }
 
 #orange-image-alignment {
-    left: 7rem;
-    width: 60%;
+    /*left: 7rem;*/
+    width: 100%;
     height: 60%;
 }
 
