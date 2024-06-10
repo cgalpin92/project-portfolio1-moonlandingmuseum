@@ -151,6 +151,14 @@ nav a {
     text-align: center;
 }
 
+#welcome-message {
+    font-size: 150%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
 #whats-here-list {
     font-family: 'Raleway', sans-serif;
     padding-left: 6%;
