@@ -44,9 +44,7 @@ h4 {
 
 p {
     font-family: 'Raleway', sans-serif;
-    padding-left: 2%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    padding: 5%;
 }
 
 /* Header styles */
@@ -161,19 +159,25 @@ nav a {
 
 #whats-here-list {
     font-family: 'Raleway', sans-serif;
-    padding-left: 6%;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    /*padding-left: 6%;*/
+    padding: 6%;
+    /*margin-top: 0.5rem;
+    margin-bottom: 1rem;*/
     list-style-type: disc;
+    text-align: center;
 }
 
-.welcome-images {
+#whats-here-list li::marker {
+    font-size: 2rem;
+}
+
+/*.welcome-images {
     width: 70%;
     height: 70%;
     position: relative;
     padding-left: 5rem;
     border-radius: 20%;
-}
+}*/
 
 .blue-image {
     position: relative;
@@ -182,10 +186,11 @@ nav a {
     padding: 3px;
 }
 
-#blue-image-alignment {
+.image-alignment {
     /*left: 7rem;*/
     width: 100%;
     height: 60%;
+    margin-top: 1rem;
 }
 
 .black-image {
@@ -208,11 +213,10 @@ nav a {
     padding: 3px;
 }
 
-#orange-image-alignment {
-    /*left: 7rem;*/
+/*#orange-image-alignment {
     width: 100%;
     height: 60%;
-}
+}*/
 
 .color-block-a {
     background-color: #666699;
