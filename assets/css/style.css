@@ -206,17 +206,14 @@ nav a {
     height: 60%;
 }
 
-.black-background {
-    background-color: black;
+.color-block-a {
+    background-color: #666699;
     color: white;
 }
 
-.yellow-background {
-    background-color: rgb(246, 190, 0);
-}
-
-.turqoise-background {
-    background-color: rgba(64, 224, 208);
+.color-block-b {
+    background-color: #6A7191;
+    color: white;
 }
 
 /* Footer styles */
