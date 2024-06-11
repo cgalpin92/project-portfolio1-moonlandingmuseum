@@ -322,6 +322,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     font-size: 110%;
+    padding-bottom: 0.5rem;
 }
 
 footer a {
