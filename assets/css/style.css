@@ -50,6 +50,7 @@ p {
 
 ul li {
     list-style-type: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Header styles */
@@ -167,7 +168,6 @@ nav a {
 }
 
 #whats-here-list {
-    font-family: 'Raleway', sans-serif;
     font-size: 150%;
     /*padding-left: 6%;*/
     padding-left: 10%;
@@ -176,7 +176,6 @@ nav a {
     padding-bottom: 5%;
     /*margin-top: 0.5rem;
     margin-bottom: 1rem;*/
-    list-style-type: disc;
     text-align: center;
 }
 
@@ -302,7 +301,7 @@ table td {
 }
 
 .smaller-font {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 #address {
@@ -322,6 +321,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-size: 110%;
 }
 
 footer a {
