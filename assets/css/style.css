@@ -306,7 +306,8 @@ table td {
 
 #address {
     letter-spacing: 3px;
-    font-weight: 200;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 #map {
