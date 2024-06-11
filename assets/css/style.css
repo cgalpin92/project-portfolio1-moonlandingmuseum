@@ -271,6 +271,10 @@ nav a {
     position: relative;
 }
 
+#opening-times {
+    margin-left: 3rem;
+}
+
 /* Footer styles */
 footer {
     background-color: darkgrey;
