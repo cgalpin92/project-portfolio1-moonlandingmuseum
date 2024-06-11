@@ -48,6 +48,9 @@ p {
     padding: 5%;
 }
 
+ul li {
+    list-style-type: none;
+}
 
 /* Header styles */
 header {
@@ -145,6 +148,10 @@ nav a {
 }
 
 /* main content styling */
+
+.icon {
+    letter-spacing: 1rem;
+}
 
 .text-center {
     margin-top: 0.5rem;
