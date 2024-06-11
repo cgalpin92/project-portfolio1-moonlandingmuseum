@@ -263,6 +263,14 @@ nav a {
     justify-content: space-evenly;
 }
 
+#volunteer-img {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
 /* Footer styles */
 footer {
     background-color: darkgrey;
