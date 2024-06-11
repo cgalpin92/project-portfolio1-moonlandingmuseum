@@ -250,6 +250,7 @@ nav a {
     padding: 5%;
 }
 
+
 #smaller-paragraph {
     text-align: left;
     font-size: 120%;
@@ -258,7 +259,7 @@ nav a {
 #availability {
     margin-bottom: 1em;
     position: relative;
-    text-align: center;
+    text-align: left;
     justify-content: space-evenly;
 }
 
