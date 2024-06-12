@@ -53,6 +53,42 @@ ul li {
     font-family: 'Raleway', sans-serif;
 }
 
+.icon {
+    letter-spacing: 1rem;
+}
+
+.text-center {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.color-block-a {
+    background-color: #666699;
+    color: white;
+}
+
+.color-block-b {
+    background-color: #6A7191;
+    color: white;
+}
+
+
+.p-title {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 180%;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.left-alignment {
+    padding: 5%;
+}
+
+.smaller-font {
+    font-size: 100%;
+}
+
+
 /* Header styles */
 header {
     background-color: darkgrey;
@@ -130,6 +166,8 @@ nav a {
 
 /* Main Content styles */
 
+/* Index.html */
+
 /* Hero styling */
 #hero {
     background-image: url(../images/rocket.jpg);
@@ -148,15 +186,27 @@ nav a {
     /*background-color: rgba(134, 243, 238, 0.6);*/
 }
 
-/* main content styling */
+/* rest of index.html*/
 
-.icon {
-    letter-spacing: 1rem;
+.blue-image {
+    position: relative;
+    border-radius: 20%;
+    border: 10px solid rgb(0, 0, 139);
+    padding: 3px;
 }
 
-.text-center {
-    margin-top: 0.5rem;
-    text-align: center;
+.image-alignment {
+    /*left: 7rem;*/
+    width: 100%;
+    height: 60%;
+    margin-top: 1rem;
+}
+
+.orange-image {
+    position: relative;
+    border-radius: 20%;
+    border: 10px solid rgb(255, 95, 0);
+    padding: 3px;
 }
 
 #welcome-message {
@@ -191,20 +241,6 @@ nav a {
     border-radius: 20%;
 }*/
 
-.blue-image {
-    position: relative;
-    border-radius: 20%;
-    border: 10px solid rgb(0, 0, 139);
-    padding: 3px;
-}
-
-.image-alignment {
-    /*left: 7rem;*/
-    width: 100%;
-    height: 60%;
-    margin-top: 1rem;
-}
-
 /*.black-image {
     position: relative;
     border-radius: 20%;
@@ -218,73 +254,24 @@ nav a {
     height: 60%;
 }*/
 
-.orange-image {
-    position: relative;
-    border-radius: 20%;
-    border: 10px solid rgb(255, 95, 0);
-    padding: 3px;
-}
 
 /*#orange-image-alignment {
     width: 100%;
     height: 60%;
 }*/
 
-.color-block-a {
-    background-color: #666699;
-    color: white;
-}
-
-.color-block-b {
-    background-color: #6A7191;
-    color: white;
-}
+/* mission.html */
 
 
-.p-title {
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 180%;
-    padding-left: 5%;
-    padding-top: 3%;
-}
+
+/* astronauts.html */
 
 .profile-img-1 {
     width: 100%;
     padding-top: 10px;
 }
 
-.left-alignment {
-    padding: 5%;
-}
-
-
-#smaller-paragraph {
-    text-align: left;
-    font-size: 120%;
-}
-
-#availability {
-    margin-bottom: 1em;
-    position: relative;
-    text-align: left;
-    justify-content: space-evenly;
-}
-
-#volunteer-img {
-    width: 100%;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-
-#submit-button {
-    font-size: 130%;
-}
-
-#opening-times {
-    margin-left: 2rem;
-}
+/* visit-us.html */
 
 table {
     font-family: 'Raleway', sans-serif;
@@ -300,8 +287,8 @@ table td {
     padding: 0.5rem;
 }
 
-.smaller-font {
-    font-size: 100%;
+#opening-times {
+    margin-left: 2rem;
 }
 
 #address {
@@ -313,6 +300,32 @@ table td {
 #map {
     width: 100%;
     height: 600%;
+}
+
+/* form.html */
+
+#smaller-paragraph {
+    text-align: left;
+    font-size: 120%;
+}
+
+#availability {
+    margin-bottom: 1em;
+    position: relative;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+#submit-button {
+    font-size: 130%;
+}
+
+#volunteer-img {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 /* Footer styles */
@@ -366,9 +379,26 @@ footer a {
 
     /* Main Content */
 
+    /* General */
+
     main {
         margin-top: 80px;
     }
+
+    /* index.html */
+
+
+    /* mission.html */
+
+
+    /* astronauts.html */
+
+
+    /* visit-us.html */
+
+
+    /* form.html */
+
 
     /* footer */
 }
@@ -395,6 +425,21 @@ footer a {
     }
 
 
+    /* index.html */
+
+
+    /* mission.html */
+
+
+    /* astronauts.html */
+
+
+    /* visit-us.html */
+
+
+    /* form.html */
+
+
     /* footer */
 
     footer {
@@ -416,5 +461,36 @@ footer a {
         font-size: 120%;
     }
 
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    /* Header */
+
+
+    /* Main Content */
+
+
+    /* General Styling */
+
+
+    /* index.html */
+
+
+    /* mission.html */
+
+
+    /* astronauts.html */
+
+
+    /* visit-us.html */
+
+
+    /* form.html */
+
+
+    /* Footer */
 
 }
