@@ -76,7 +76,6 @@ ul li {
 .p-title {
     font-family: 'Rajdhani', sans-serif;
     font-size: 180%;
-    padding-left: 5%;
     padding-top: 3%;
 }
 
@@ -262,13 +261,19 @@ nav a {
 
 /* mission.html */
 
+.dates {
+    padding-left: 5%;
+}
 
 
 /* astronauts.html */
 
+
+
 .profile-img-1 {
     width: 100%;
     padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .wrap {
@@ -427,17 +432,14 @@ footer a {
 
     /* astronauts.html */
 
-
-
-
-
     .profile-img-1 {
         width: 50%;
         position: relative;
     }
 
-
-
+    summary.p-title {
+        padding-left: 5%;
+    }
 
     /* visit-us.html */
 
