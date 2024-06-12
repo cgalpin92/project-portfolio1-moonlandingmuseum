@@ -313,6 +313,12 @@ table td {
     height: 600%;
 }
 
+#contact-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 /* form.html */
 
 #smaller-paragraph {
