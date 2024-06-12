@@ -348,8 +348,7 @@ table td {
 /* Footer styles */
 footer {
     background-color: darkgrey;
-    padding-left: 0.5rem;
-    display: flex;
+    padding-left: 0.5rem display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: 110%;
@@ -452,6 +451,14 @@ footer a {
 
 
     /* form.html */
+
+    .form {
+        display: ruby-text;
+    }
+
+    #volunteer-img {
+        height: 400px;
+    }
 
 
     /* footer */
