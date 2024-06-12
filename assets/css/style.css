@@ -287,7 +287,7 @@ nav a {
 table {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
-    text-align: right;
+    text-align: center;
 }
 
 table th {
@@ -299,7 +299,7 @@ table td {
 }
 
 #opening-times {
-    margin-left: 2rem;
+    margin: auto;
 }
 
 #address {
@@ -442,6 +442,7 @@ footer a {
     }
 
     /* visit-us.html */
+
 
 
     /* form.html */
