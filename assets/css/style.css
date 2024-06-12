@@ -271,6 +271,12 @@ nav a {
     padding-top: 10px;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 /* visit-us.html */
 
 table {
@@ -391,6 +397,10 @@ footer a {
         margin-top: 80px;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     /* index.html */
 
     #hero {
@@ -416,6 +426,17 @@ footer a {
 
 
     /* astronauts.html */
+
+
+
+
+
+    .profile-img-1 {
+        width: 50%;
+        position: relative;
+    }
+
+
 
 
     /* visit-us.html */
