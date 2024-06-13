@@ -97,8 +97,10 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     z-index: 99;
+    padding-bottom: 5%;
+    padding-top: 2%;
 }
 
 header a {
@@ -321,6 +323,10 @@ table td {
 
 /* form.html */
 
+.form input {
+    margin-left: 4%;
+}
+
 #smaller-paragraph {
     text-align: left;
     font-size: 120%;
@@ -348,7 +354,8 @@ table td {
 /* Footer styles */
 footer {
     background-color: darkgrey;
-    padding-left: 0.5rem display: flex;
+    padding-left: 0.5rem;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: 110%;
@@ -380,6 +387,7 @@ footer a {
     /* Header */
     header {
         height: 80px;
+        padding-top: 5%;
     }
 
 
@@ -454,6 +462,7 @@ footer a {
 
     .form {
         display: ruby-text;
+        font-size: larger;
     }
 
     #volunteer-img {
@@ -487,6 +496,23 @@ footer a {
 
 
     /* index.html */
+
+    /* Hero */
+    #hero-text {
+        font-size: xx-large;
+    }
+
+    /* Rest of Index */
+
+    .block-a {
+        width: 50%;
+        margin: auto;
+
+    }
+
+    .block-b {
+        width: 50%;
+    }
 
 
     /* mission.html */
