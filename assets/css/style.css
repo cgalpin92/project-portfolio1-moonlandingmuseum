@@ -283,7 +283,17 @@ nav a {
 
 /* astronauts.html */
 
+#moon-background {
+    background-image: url(../images/stars.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
 
+.opacity {
+    opacity: 80%;
+}
 
 .profile-img-1 {
     width: 100%;
@@ -558,11 +568,33 @@ footer a {
 
     /* astronauts.html */
 
+    /*.profile-img-1 {
+        width: 25%;
+        /*position: relative;*/
+
+
+    /*.p-title {
+        width: 25%;
+    }*/
+
+
+
+
+
+    .width {
+        width: 65%;
+    }
+
+    .right {
+        float: right;
+    }
 
     /* visit-us.html */
 
 
+
     /* form.html */
+
 
 
     /* footer */
