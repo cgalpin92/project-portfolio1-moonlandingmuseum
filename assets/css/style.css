@@ -272,6 +272,14 @@ nav a {
     padding-left: 5%;
 }
 
+.box-size {
+    border: 2px solid #ffffff;
+}
+
+.box-size-2 {
+    border: 2px solid #ffffff;
+}
+
 
 /* astronauts.html */
 
@@ -288,6 +296,7 @@ nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 
 /* visit-us.html */
 
@@ -444,12 +453,19 @@ footer a {
 
     /* mission.html */
 
+    .box-size {
+        width: 50%;
+    }
 
     /* astronauts.html */
 
     .profile-img-1 {
         width: 50%;
-        position: relative;
+        /*position: relative;*/
+    }
+
+    .p-title {
+        width: 50%;
     }
 
     summary.p-title {
@@ -496,6 +512,9 @@ footer a {
         margin-top: 85px;
     }
 
+    h2 {
+        font-size: 400%;
+    }
 
     /* index.html */
 
@@ -519,6 +538,15 @@ footer a {
 
     /* mission.html */
 
+
+
+    .box-size {
+        width: 33.3%;
+    }
+
+    .box-size-2 {
+        width: 50%;
+    }
 
     /* astronauts.html */
 
@@ -570,6 +598,14 @@ footer a {
 
     /* mission.html */
 
+    .box-size {
+        width: 25%;
+    }
+
+    .box-size-3 {
+        width: 100%;
+        text-align: center;
+    }
 
     /* astronauts.html */
 
