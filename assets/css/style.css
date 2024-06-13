@@ -320,6 +320,11 @@ table td {
     justify-content: space-around;
 }
 
+#contact-details a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 /* form.html */
 
 .form input {
@@ -430,6 +435,10 @@ footer a {
         margin-top: 80px;
     }
 
+    h2 {
+        margin-top: 12%;
+    }
+
 
     /* index.html */
 
@@ -478,7 +487,9 @@ footer a {
 
     /* visit-us.html */
 
-
+    .text-size {
+        font-size: 120%;
+    }
 
     /* form.html */
 
