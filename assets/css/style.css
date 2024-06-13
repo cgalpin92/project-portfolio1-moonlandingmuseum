@@ -376,11 +376,14 @@ table td {
 }
 
 #volunteer-img {
-    width: 100%;
+    width: auto;
     height: 200px;
     background-position: center;
     background-size: cover;
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer styles */
@@ -468,6 +471,16 @@ footer a {
         font-size: x-large;
     }
 
+    .block-a {
+        width: 50%;
+        margin: auto;
+
+    }
+
+    .block-b {
+        width: 50%;
+    }
+
 
     /* mission.html */
 
@@ -553,6 +566,13 @@ footer a {
         width: 50%;
     }
 
+    .website {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
 
     /* mission.html */
 
@@ -568,19 +588,6 @@ footer a {
 
     /* astronauts.html */
 
-    /*.profile-img-1 {
-        width: 25%;
-        /*position: relative;*/
-
-
-    /*.p-title {
-        width: 25%;
-    }*/
-
-
-
-
-
     .width {
         width: 65%;
     }
@@ -594,7 +601,6 @@ footer a {
 
 
     /* form.html */
-
 
 
     /* footer */
