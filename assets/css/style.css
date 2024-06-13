@@ -37,7 +37,7 @@ h2 {
 h3 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 180%;
-    text-decoration: underline overline;
+    text-decoration: underline;
     color: #8b0000;
     margin-bottom: 2%;
 }
@@ -231,6 +231,10 @@ nav a {
 
 #whats-here-list li::marker {
     font-size: 2rem;
+}
+
+#website a {
+    color: #ffffff;
 }
 
 /* mission.html */
@@ -595,6 +599,16 @@ footer a {
 
     /* form.html */
 
+    .form {
+        font-size: 150%;
+    }
+
+    #volunteer-img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
 
     /* footer */
 
@@ -603,6 +617,7 @@ footer a {
         height: 60px;
         align-content: center;
         align-items: center;
+        padding-left: 15.5rem;
     }
 
     #social-media-links {
@@ -656,5 +671,13 @@ footer a {
 
 
     /* Footer */
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    #hero {
+        height: 550px;
+    }
 
 }
