@@ -28,6 +28,10 @@ h2 {
     letter-spacing: 3px;
     color: darkblue;
     font-weight: 300;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    text-align: center;
+
 }
 
 h3 {
@@ -35,6 +39,7 @@ h3 {
     font-size: 180%;
     text-decoration: underline overline;
     color: darkred;
+    margin-bottom: 2%;
 }
 
 h4 {
@@ -415,9 +420,6 @@ footer a {
         margin-top: 80px;
     }
 
-    h2 {
-        text-align: center;
-    }
 
     /* index.html */
 
