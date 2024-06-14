@@ -212,6 +212,4 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
  - Volunteer image sourced from Space Center Houston - https://spacecenter.org/support/volunteer/
 
 
-### Styling
-
 
