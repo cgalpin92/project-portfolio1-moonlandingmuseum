@@ -18,14 +18,21 @@
             <h1>Moon Landing Museum</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-lable"><i class="fa-solid fa-bars"></i></i></label>
+        <label for="nav-toggle" class="nav-toggle-lable"><i class="fa-solid fa-bars"
+                aria-label="tap to expand main-menu"></i></i></label>
         <nav>
             <ul id="main-menu">
-                <li><a href="index.html" class="active">Home Page</a></li>
-                <li><a href="mission.html">The Mission</a></li>
-                <li><a href="astronauts.html">The Astronauts</a></li>
-                <li><a href="visit-us.html">Visit Us</a></li>
-                <li><a href="form.html">Volunteer with Us</a></li>
+                <li><a href="index.html" class="active" aria-label="You are currently on our Home Page">Home Page</a>
+                </li>
+                <li><a href="mission.html" aria-label="Go to The Mission page (replaces the existing page)">The
+                        Mission</a></li>
+                <li><a href="astronauts.html" aria-label="Go to The Astronauts page (replaces the existing page)">The
+                        Astronauts</a></li>
+                <li><a href="visit-us.html" aria-label="Go to our Visit Us page (replaces the existing page)">Visit
+                        Us</a></li>
+                <li><a href="form.html"
+                        aria-label="Go to our Volunteer with Us page (replaces the existing page)">Volunteer with Us</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -58,7 +65,7 @@
                     things
                     Apollo 11</p>
                 <img src="assets/images/apollo_saturn_v_center_displays_and_rocket.jpg"
-                    alt="picture of a man and a woman pointing at the saturn 5 rocket on display in a museum"
+                    alt="picture of a man and a woman pointing at the saturn 5 rocket on display in the museum"
                     class="blue-image image-alignment block-b">
             </div>
             <div>
@@ -90,13 +97,19 @@
             <div>
                 <p class="color-block-a">Take a tour round our website where we’ll take you through
                     the timeline of the
-                    <a href="mission.html">Mission</a> and introduce you to the three men whose names have gone down in
+                    <a href="mission.html"
+                        aria-label="select to go to The Mission page (replaces the existing page)">Mission</a> and
+                    introduce you to the three men whose names have gone down in
                     history; astronauts Neil
-                    Armstrong, Buzz Aldrin and Michael Collins. Our <a href="visit-us.html">'Visit Us'</a> page will
+                    Armstrong, Buzz Aldrin and Michael Collins. Our <a href="visit-us.html"
+                        aria-label="select to go to our Visit Us page (replaces the existing page)">'Visit Us'</a> page
+                    will
                     give you
                     all the information on how to find us. For
                     any Apollo 11 enthusiasts out there who are interested in volunteering with us, take a look at the
-                    Volunteering page where you can register your interest.</p>
+                    <a href="form.html"
+                        aria-label="select to go to the Volunteering page (replaces the existing page)"></a>Volunteering
+                    page where you can register your interest.</p>
             </div>
         </section>
     </main>
