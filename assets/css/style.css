@@ -188,7 +188,7 @@ nav a {
 /* Hero styling */
 /* taken from Love Running Project */
 #hero {
-    background-image: url(../images/rocket.jpg);
+    background-image: url(../images/hero_image.jpg);
     width: 100%;
     height: 200px;
     background-position: center;
@@ -268,7 +268,7 @@ nav a {
 /* astronauts.html */
 
 #moon-background {
-    background-image: url(../images/stars.jpg);
+    background-image: url(../images/stars_background.jpg);
     background-attachment: fixed;
     width: 100%;
     background-position: center;
