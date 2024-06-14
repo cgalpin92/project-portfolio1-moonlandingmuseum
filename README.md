@@ -13,8 +13,17 @@ Users of the website will not only be able to find out what the Museum showcases
 
 ## Design
  - __Color Scheme__
+  - The Header and Footer are Light Grey with Black Font, the Black intending to stand out and catch the user's attention.
+  - The Nav Main Menu is also Black font on a White Smoke background.
+  - There are two main colors used throughout this site, they are Dark Blue-Grey and Blue Kimberly.
+  - The supporting colors, which are primarily used for headers are Dark Blue, Dark Red and Dark Orange.
+  - The primary font color is White.
+  
 
  - __Typography__
+  - The fonts Space Grotesk and Rajdhani are used for the Headers and Menus within this project, they stand out intending to catch the user's attemtion, and also fit with the space and sci-fi theme.
+  - The fonts Raleway and Roboto are used for the main content of the site, they are a softer font and easier to read for the user.
+  - The font sans-serif is set as the fallback for all fonts in the instance that the browser does not import the font correctly.
 
 ## Features 
 ### Existing Features
