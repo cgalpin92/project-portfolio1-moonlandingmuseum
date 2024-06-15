@@ -155,12 +155,25 @@ Users of the website will not only be able to find out what the Museum showcases
 ### Validator Testing 
 
 - __HTML__
+  - No errors were returned when passing each page through the official W3C validator.
 
 - __CSS__
+  - No errors were found when passing through the official (Jigsaw) validator.
 
 - __Accessibility__
+  - I confirmed that the colors and fonts chosen for each page are easy to read and accessible by running it through lighthouse in chrome devtoools.
 
+  ![screenshot of home page accessibility checker](media/home-page-accessibility.png)
 
+  ![screenshot of mission page accessibility checker](media/mission-accessibility.png)
+
+  ![screenshot of astronauts page accessibility checker](media/astronauts-accessibility.png)
+
+  ![screenshot of visit us page accessibility checker](media/visit-us-accessibility.png)
+
+  ![screenshot of volunteer sign up form accessibility checker](media/volunteer-accessibility.png)
+
+  ![screenshot of confirmation page accessibility checker](media/form-dump-accessibility.png)
 
 ### Bugs
 
