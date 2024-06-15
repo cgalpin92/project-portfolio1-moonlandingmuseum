@@ -91,6 +91,13 @@ ul li {
     padding: 5%;
 }
 
+.white-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 250%;
+}
+
 .smaller-font {
     font-size: 100%;
 }
