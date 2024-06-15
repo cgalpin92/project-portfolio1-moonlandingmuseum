@@ -4,7 +4,7 @@
 The Moon Landing Museum website is for Space exploration enthusiasts, particularly those interested in the mission that First put Man on the Moon, the Apollo 11 Mission.
 The Museum is a one-stop shop for all things Apollo 11. 
 
-Users of the website will not only be able to find out what the Museum showcases, information on how to visit and ways they can contact them, but also learn about the History of Apollo, a Timeline of Events of the Mission itself and the Apollo 11 Astronauts. Users can also register their interest to Volunteer at the Museum. The site is targeted towards an audience of space lovers, particularly those interest in the Apollo 11 Mission. 
+Users of the website will not only be able to find out what the Museum showcases, information on how to visit and ways they can contact them, but also learn about the History of Apollo, a Timeline of Events of the Mission itself and the Apollo 11 Astronauts. Users can also register their interest to Volunteer at the Museum. The site is targeted at an audience of space lovers, particularly those interest in the Apollo 11 Mission. 
 
 ![Responsive Mockup](media/moonlandingmuseum-mockup.png)
 
@@ -34,7 +34,7 @@ Users of the website will not only be able to find out what the Museum showcases
 
 - __Header and Navigation Bar__
 
-  - The Header and Navigation Bar encompases the Logo and Menu. Its featured at the top of the page with the Logo located to the left. The Menu is either located beneath the Header across the whole width of the page when the screen is large enough, or on smaller screens as a burger menu to the top right of the page which expands vertically when checked.
+  - The Header and Navigation Bar encompases the Logo and Menu. Its featured at the top of the page with the Logo located to the left. The Menu is either located beneath the Header across the whole width of the page when the screen is large enough, or on smaller screens as a burger icon to the top right of the page which expands vertically when checked.
   - The Header has a light grey background with a black, uppercase, space style font which is clear and stands out to the user.
   - The Menu consists of all 5 pages; Home Page, The Mission, The Astronauts, Visit Us and Volunteer with Us. In contrast to the Header the background is white and the font is smaller with only the first letter of each word capitalized. This is so the Header and the Menu are clearly defined to the user. The current page is highlighted to the user in dark red font.
   - The Header and Menu are identical across all pages to keep consistency and ensure its easy to navigate for the user. Its fully responsive depending on the screen size its viewed on.
@@ -53,13 +53,13 @@ Users of the website will not only be able to find out what the Museum showcases
 
   - Welcome Image and Message:
     - The Welcome Image is located directly below the Header and Navigation Menu. It shows the Saturn 5 Rocket displayed in the Museum which introduces the user with what to expect from the Museum.
-    - There is a 'Welcome' Text Overlay which is bright and eye catching, intending to grab their attention.
+    - There is a 'Welcome' Text Overlay which is bright and eye catching, intended to grab their attention.
     - Underneath the Welcome Image is a Message welcoming the user to the website. To again grab the user's attention the text is in Uppercase format and in contrast to the Dark Purple background. 
 
     ![Welcome Image screenshot](media/moonlandingmuseum-welcome.png)
 
   - Who are we section:
-    - The Who are we section outlines the purpose of the Museum to the user, that they are enthusiastic about the Apollo missions, particularly that of Apollo 11.
+    - The Who are we section outlines the purpose of the Museum to the user, they will get a detailed insite into the Apollo 11 Mission.
     - There is a supporting image depicting two people viewing the Saturn 5 Rocket in the museum outlined in one of the site's supporting colors: dark blue.
     - There is a Red Subtitle to this section so the user knows what the purpose of the section is. 
 
@@ -85,7 +85,7 @@ Users of the website will not only be able to find out what the Museum showcases
 
   - The aim of this page is to clearly outline to the user how the Apollo 11 Mission came about as well as key moments of the Mission.
   - The Title of the page is centered at the top of the page in a clear font with red subtitles seperating the sections into the History and the Timeline.
-  - The two main colors are used as the background in an alternating patter to clearly outline each event to the user.
+  - The two main colors are used as the background in an alternating pattern to clearly outline each event to the user.
   - When the page is in smaller screen format the events are layered vertically, as the screen size increases, the boxes move to organise horizontally.
    
    ![screenshot of the Mission page](media/moonlandingmuseum-mission.png)
@@ -101,9 +101,9 @@ Users of the website will not only be able to find out what the Museum showcases
 
 - __Visit Us Page__
 
-  - The Visit Us Page gives important information to the user should they wish to visit it.
+  - The Visit Us Page gives important information to the user should they wish to visit the Museum.
   - It provides them with the opening times and where it's located. There is a supporting embeded google maps providing a visual location of the Museum.
-  - The page also provides the user with the Museum's contact information to encourage them to get in touch.
+  - The page also provides the contact information for the Museum to encourage them to get in touch.
 
   ![screenshot of the Visit Us Page](media/moonlandingmuseum-visit-us.png)
 

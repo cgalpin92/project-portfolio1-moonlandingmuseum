@@ -18,7 +18,7 @@
             <h1>Moon Landing Museum</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-lable"><i class="fa-solid fa-bars"></i></i></label>
+        <label for="nav-toggle" class="nav-toggle-lable"><i class="fa-solid fa-bars"></i></label>
         <nav>
             <ul id="main-menu">
                 <li><a href="index.html" aria-label="Go to our Home page (replaces the existing page)">Home Page</a>
@@ -41,8 +41,8 @@
             <h2>Volunteer with Us</h2>
         </section>
         <section class="wrap-2">
-            <section class="color-block-a form">
-                <p>Please complete the form below to register your interest in Volunteering with us</p>
+            <div class="color-block-a form">
+                <h3>Please complete the form below to register your interest in Volunteering with us</h3>
                 <!-- Volunteering Form -->
                 <form action="formdump.html" method="get" class="color-block-b">
                     <fieldset>
@@ -59,8 +59,7 @@
                             <input type="email" name="email" id="email" placeholder="name@emailaddress.com" required>
                             <br>
                             <label for="age">Are you age 18 or older?</label>
-                            <select name="age" id="age" required>
-                                <option value=""></option>
+                            <select name="age" id="age">
                                 <option value="yes">Yes</option>
                                 <option value="no">No</option>
                             </select>
@@ -70,31 +69,32 @@
                     <fieldset>
                         <legend>Your availability <em>optional</em></legend>
                         <div>
-                            <p id="smaller-paragraph">If you wish please select your availability, you can select more
+                            <p id="smaller-paragraph">If you wish please select your availability, you can
+                                select more
                                 than one</p>
                         </div>
-                        <div class="left-alignment" id="availability">
+                        <div class="left-alignment" id="options-list">
 
-                            <input type="checkbox" id="availability" name="availability" value="monday">
-                            <label for="availability">Mon</label>
+                            <input type="checkbox" id="monday-checkbox" name="monday" value="monday">
+                            <label for="monday-checkbox">Mon</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="tuesday">
-                            <label for="availability">Tue</label>
+                            <input type="checkbox" id="tuesday-checkbox" name="tuesday" value="tuesday">
+                            <label for="tuesday-checkbox">Tue</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="wednesday">
-                            <label for="availability">Wed</label>
+                            <input type="checkbox" id="wednesday-checkbox" name="wednesday" value="wednesday">
+                            <label for="wednesday-checkbox">Wed</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="thursday">
-                            <label for="availability">Thur</label>
+                            <input type="checkbox" id="thursday-checkbox" name="thursday" value="thursday">
+                            <label for="thursday-checkbox">Thur</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="friday">
-                            <label for="availability">Fri</label>
+                            <input type="checkbox" id="friday-checkbox" name="friday" value="friday">
+                            <label for="friday-checkbox">Fri</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="saturday">
-                            <label for="availability">Sat</label>
+                            <input type="checkbox" id="saturday-checkbox" name="saturday" value="saturday">
+                            <label for="saturday-checkbox">Sat</label>
                             <br>
-                            <input type="checkbox" id="availability" name="availability" value="sunday">
-                            <label for="availability">Sun</label>
+                            <input type="checkbox" id="sunday-checkbox" name="sunday" value="sunday">
+                            <label for="sunday-checkbox">Sun</label>
                             <br>
                             <br>
                             <input type="submit" value="Submit" id="submit-button"
@@ -102,11 +102,11 @@
                         </div>
                     </fieldset>
                 </form>
-            </section>
-            <section class="color-block-a img-center">
+            </div>
+            <div class="color-block-a img-center">
                 <img src="assets/images/volunteers.jpg" alt="picture of a volunteer in an orange t-shirt"
                     id="volunteer-img">
-            </section>
+            </div>
         </section>
     </main>
 
