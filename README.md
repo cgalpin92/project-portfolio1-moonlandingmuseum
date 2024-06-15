@@ -6,7 +6,7 @@ The Museum is a one-stop shop for all things Apollo 11.
 
 Users of the website will not only be able to find out what the Museum showcases, information on how to visit and ways they can contact them, but also learn about the History of Apollo, a Timeline of Events of the Mission itself and the Apollo 11 Astronauts. Users can also register their interest to Volunteer at the Museum. The site is targeted towards an audience of space lovers, particularly those interest in the Apollo 11 Mission. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](media/moonlandingmuseum-mockup.png)
 
 ## User Experience Stories
 
@@ -32,7 +32,7 @@ Users of the website will not only be able to find out what the Museum showcases
 
   - The Header and Navigation Bar encompases the Logo and Menu. Its featured at the top of the page with the Logo located to the left. The Menu is either located beneath the Header across the whole width of the page when the screen is large enough, or on smaller screens as a burger menu to the top right of the page which expands vertically when checked.
   - The Header has a light grey background with a black, uppercase, space style font which is clear and stands out to the user.
-  - The Menu consists of all 5 pages; Home Page, The Mission, The Astronauts, Visit Us and Volunteer with Us. In contrast to the Header the background is white and the font is smaller with only the first letter of each word capitalized. This is so the Header and the Menu are clearly defined to the user. 
+  - The Menu consists of all 5 pages; Home Page, The Mission, The Astronauts, Visit Us and Volunteer with Us. In contrast to the Header the background is white and the font is smaller with only the first letter of each word capitalized. This is so the Header and the Menu are clearly defined to the user. The current page is highlighted to the user in dark red font.
   - The Header and Menu are identical across all pages to keep consistency and ensure its easy to navigate for the user. Its fully responsive depending on the screen size its viewed on.
 
 - __The Landing Page - Welcome Page__
