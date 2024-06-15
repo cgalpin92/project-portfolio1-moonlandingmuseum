@@ -70,7 +70,7 @@ Users of the website will not only be able to find out what the Museum showcases
     - There is a supporting image of the Lunar Landing Module, outlined in one of the chosen supporting colors: dark orange.
     - Again there is a Red Subtitle to this section.
 
-    ![screenshot of the What's here section](media/moonlandingmuseum-whats-here.png) 
+    ![screenshot of the What's here section](media/moonlandingmuseum-whats-here.png)
 
   - Our Website section:
     - This sections explains to the user what the Website consists of, indicating this with another Red subtitle. 
