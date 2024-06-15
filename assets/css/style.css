@@ -61,6 +61,11 @@ ul li {
     font-family: 'Raleway', sans-serif;
 }
 
+em {
+    padding-left: 1rem;
+    padding-right: 2rem;
+}
+
 .icon {
     letter-spacing: 1rem;
 }
@@ -504,7 +509,7 @@ footer a {
     }
 
     summary.p-title {
-        padding-left: 5%;
+        padding-left: 1%;
     }
 
 
