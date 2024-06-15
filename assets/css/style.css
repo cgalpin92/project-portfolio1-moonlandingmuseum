@@ -12,7 +12,7 @@
 body {
     background-color: #ffffff;
     min-height: 100vh;
-    /* display and flext direction taken from Love Running Project*/
+    /* display and flex direction taken from Love Running Project*/
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', Rajdhani, sans-serif;
@@ -45,7 +45,6 @@ h3 {
     margin-bottom: 2%;
 }
 
-/* is this still needed? */
 h4 {
     font-family: 'Rajdhani', sans-serif;
     letter-spacing: 5px;
@@ -77,7 +76,7 @@ ul li {
 }
 
 .color-block-b {
-    background-color: #6A7191;
+    background-color: #6a7191;
     color: #ffffff;
 }
 
@@ -99,7 +98,7 @@ ul li {
 
 /* Header styles */
 header {
-    /* properties; postiion, box-shadow, z-index, width, justify-content taken from Love Running Project */
+    /* properties; position, box-shadow, z-index, width and justify-content taken from Love Running Project */
     background-color: #a9a9a9;
     position: fixed;
     padding-left: 3%;
@@ -169,7 +168,7 @@ nav {
     display: none;
 }
 
-/* name and property font-size taken from Lovve Running Project*/
+/* name and property font-size taken from Love Running Project*/
 .nav-toggle-lable {
     font-size: 2rem;
     padding-right: 3%;
@@ -183,7 +182,6 @@ nav a {
 
 /* Main Content styles */
 
-/* Index.html */
 
 /* Hero styling */
 /* taken from Love Running Project */
@@ -203,7 +201,7 @@ nav a {
     background-color: rgba(255, 95, 0, 0.6);
 }
 
-/* rest of index.html*/
+
 
 .blue-image {
     position: relative;
@@ -250,7 +248,7 @@ nav a {
     color: #ffffff;
 }
 
-/* mission.html */
+
 
 .dates {
     padding-left: 5%;
@@ -265,9 +263,9 @@ nav a {
 }
 
 
-/* astronauts.html */
 
-#moon-background {
+
+#stars-background {
     background-image: url(../images/stars_background.jpg);
     background-attachment: fixed;
     width: 100%;
@@ -300,7 +298,7 @@ details[open] {
     padding-left: 4%;
 }
 
-/* visit-us.html */
+
 
 table {
     font-family: 'Raleway', sans-serif;
@@ -342,7 +340,6 @@ table td {
     color: #ffffff;
 }
 
-/* form.html */
 caption {
     display: none;
 }
@@ -355,8 +352,6 @@ caption {
     text-align: left;
     font-size: 120%;
 }
-
-
 
 #availability {
     margin-bottom: 1em;
@@ -405,11 +400,6 @@ footer a {
     padding-bottom: 2%;
 }
 
-.active2 {
-    font-weight: bolder;
-    text-decoration: underline;
-}
-
 /* styling for smaller screens */
 
 @media screen and (max-width: 374px) {
@@ -422,6 +412,16 @@ footer a {
 
 /* styling for larger screens */
 @media screen and (min-width: 768px) {
+    /* General */
+
+    main {
+        margin-top: 80px;
+    }
+
+    h2 {
+        margin-top: 12%;
+    }
+
 
     /* Header */
     header {
@@ -453,19 +453,6 @@ footer a {
 
     /* Main Content */
 
-    /* General */
-
-    main {
-        margin-top: 80px;
-    }
-
-    h2 {
-        margin-top: 12%;
-    }
-
-
-    /* index.html */
-
     #hero {
 
         height: 400px;
@@ -488,13 +475,11 @@ footer a {
     }
 
 
-    /* mission.html */
 
     .box-size {
         width: 50%;
     }
 
-    /* astronauts.html */
 
     .profile-img-1 {
         width: 50%;
@@ -509,13 +494,11 @@ footer a {
         padding-left: 5%;
     }
 
-    /* visit-us.html */
 
     .text-size {
         font-size: 120%;
     }
 
-    /* form.html */
 
     .form {
         display: ruby-text;
@@ -526,11 +509,17 @@ footer a {
         height: 400px;
     }
 
-
-    /* footer */
 }
 
 @media screen and (min-width: 992px) {
+
+    main {
+        margin-top: 182px;
+    }
+
+    h2 {
+        font-size: 400%;
+    }
 
     /* header */
     h1 {
@@ -556,22 +545,12 @@ footer a {
     }
 
     /* Main Content */
-    main {
-        margin-top: 182px;
-    }
 
-    h2 {
-        font-size: 400%;
-    }
-
-    /* index.html */
 
     /* Hero */
     #hero-text {
         font-size: xx-large;
     }
-
-    /* Rest of Index */
 
     .block-a {
         width: 50%;
@@ -590,11 +569,6 @@ footer a {
 
     }
 
-
-    /* mission.html */
-
-
-
     .box-size {
         width: 33.3%;
     }
@@ -602,8 +576,6 @@ footer a {
     .box-size-2 {
         width: 50%;
     }
-
-    /* astronauts.html */
 
     .width {
         width: 65%;
@@ -613,11 +585,6 @@ footer a {
         float: right;
     }
 
-    /* visit-us.html */
-
-
-
-    /* form.html */
 
     .form {
         font-size: 150%;
@@ -648,29 +615,9 @@ footer a {
         margin-right: 10em;
     }
 
-    .active2 {
-        font-size: 120%;
-    }
-
-
 }
 
 @media screen and (min-width: 1200px) {
-
-
-    /* Header */
-
-
-    /* Main Content */
-
-
-    /* General Styling */
-
-
-    /* index.html */
-
-
-    /* mission.html */
 
     .box-size {
         width: 25%;
@@ -680,18 +627,6 @@ footer a {
         width: 100%;
         text-align: center;
     }
-
-    /* astronauts.html */
-
-
-    /* visit-us.html */
-
-
-    /* form.html */
-
-
-    /* Footer */
-
 }
 
 @media screen and (min-width: 1400px) {
