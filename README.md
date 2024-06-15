@@ -1,7 +1,7 @@
 # Moon Landing Museum
 
 ## Intro
-The Moon Landing Museum website is for Space exploration enthusiasts, particularly those interested in the mission that put the First Man on the Moon, the Apollo 11 Mission.
+The Moon Landing Museum website is for Space exploration enthusiasts, particularly those interested in the mission that First put Man on the Moon, the Apollo 11 Mission.
 The Museum is a one-stop shop for all things Apollo 11. 
 
 Users of the website will not only be able to find out what the Museum showcases, information on how to visit and ways they can contact them, but also learn about the History of Apollo, a Timeline of Events of the Mission itself and the Apollo 11 Astronauts. Users can also register their interest to Volunteer at the Museum. The site is targeted towards an audience of space lovers, particularly those interest in the Apollo 11 Mission. 
@@ -9,6 +9,10 @@ Users of the website will not only be able to find out what the Museum showcases
 ![Responsive Mockup](media/moonlandingmuseum-mockup.png)
 
 ## User Experience Stories
+
+ - As a user I want to understand what events lead up to the Apollo 11 Mission, who initiated it and how the Apollo program was developed.
+ - As a user I want to learn about the Astronauts who were part of the Apollo 11 Mission, how they became Astonauts and what their role was on the Mission.
+ - As a user I want to find out what the Museum showcases and how I can visit it. 
 
 
 ## Design
@@ -182,18 +186,17 @@ Users of the website will not only be able to find out what the Museum showcases
    - Found this was due to anchor elements not wrapping the Word Volunteering
    - Moved the closing a element so that Volunteering Page wrapped within the two elements .
 
-
+- __Unfixed Bugs__
+  - No unfixed bugs
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here -  
 
 
 ## Credits 
